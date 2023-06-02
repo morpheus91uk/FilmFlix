@@ -4,12 +4,14 @@ import add_films
 import update_films
 import delete_films
 import reports
+ 
 
 def menu_options():
     
     program = True
     
     while program:
+        
         choice_action = input("filmflix Database / tblFilms Table \n To interact with this database, Start by entering an option by number:\n1. Add Record\n2. Update Record.\n3. Delete Record\n4. View All Records.\n5. View Reports.\n6. Exit Program.\n\n ")
 
         flag = True
